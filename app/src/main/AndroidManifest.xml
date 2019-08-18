@@ -2,7 +2,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.interactivitydemo">
 
-    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.INTERNET" />
 
     <application
         android:allowBackup="true"
@@ -11,10 +11,21 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".CurrencyConverter"
-            android:label="@string/title_currency_converter" android:noHistory="true" />
-        <activity android:name=".ImageActivity" android:noHistory="true" />
-        <activity android:name=".InterActivityDemo" android:noHistory="true" />
+        <activity android:name=".TriangularNumbers" android:label="@string/title_triangular_numbers"></activity>
+        <activity
+            android:name=".GuessANumber"
+            android:label="@string/title_guess_number"
+            android:noHistory="true" />
+        <activity
+            android:name=".CurrencyConverter"
+            android:label="@string/title_currency_converter"
+            android:noHistory="true" />
+        <activity
+            android:name=".ImageActivity"
+            android:noHistory="true" />
+        <activity
+            android:name=".InterActivityDemo"
+            android:noHistory="true" />
         <activity
             android:name=".MyNavActivity"
             android:label="@string/title_activity_topics_covered_menu"
@@ -25,8 +36,12 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".TopicsCovered" android:noHistory="true" />
-        <activity android:name=".MainActivity" android:noHistory="true" />
+        <activity
+            android:name=".TopicsCovered"
+            android:noHistory="true" />
+        <activity
+            android:name=".MainActivity"
+            android:noHistory="true" />
     </application>
 
 </manifest>

@@ -114,6 +114,12 @@ public class MyNavActivity extends AppCompatActivity
         } else if (id == R.id.nav_topics) {
             Intent topicsIntent = new Intent(this, TopicsCovered.class);
             startActivity(topicsIntent);
+        } else if (id == R.id.nav_guess_number) {
+            Intent guessNumberIntent = new Intent(this, GuessANumber.class);
+            startActivity(guessNumberIntent);
+        } else if (id == R.id.nav_triangular_number) {
+            Intent TriangularNumbersIntent = new Intent(this, TriangularNumbers.class);
+            startActivity(TriangularNumbersIntent);
         } else if (id == R.id.nav_share) {
 
         } else if (id == R.id.nav_send) {

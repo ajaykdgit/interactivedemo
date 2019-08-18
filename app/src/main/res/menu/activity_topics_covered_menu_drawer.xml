@@ -20,9 +20,18 @@
             android:id="@+id/nav_topics"
             android:icon="@drawable/ic_menu_manage"
             android:title="@string/menu_topics_covered" />
+        <item
+            android:id="@+id/nav_guess_number"
+            android:icon="@drawable/baseline_filter_1_24"
+            android:title="@string/menu_guess_number" />
+        <item
+            android:id="@+id/nav_triangular_number"
+            android:icon="@drawable/baseline_change_history_24"
+            android:title="@string/menu_triangular_number" />
+
     </group>
 
-    <item android:title="Communicate">
+    <item android:title="@string/menu_communicate">
         <menu>
             <item
                 android:id="@+id/nav_share"

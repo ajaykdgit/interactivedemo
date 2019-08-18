@@ -17,6 +17,23 @@
     <string name="menu_topics_covered">Topics Covered</string>
     <string name="menu_share">What Next</string>
     <string name="menu_send">Contact Us</string>
+    <string name="menu_communicate">Communicate</string>
 
     <string name="title_currency_converter">Convert USD to INR</string>
+    <string name="menu_guess_number">Guess The Number</string>
+    <string name="title_guess_number">Higher or Lower</string>
+    <string name="button_guess_number">Guess</string>
+    <string name="menu_triangular_number">Triangular Numbers</string>
+    <string name="title_triangular_numbers">Triangular Numbers</string>
+    <string name="tb1_triangular_numbers">Do You Know?</string>
+    <string name="tb2_triangular_numbers">What Are Triangular Numbers?</string>
+    <string name="tb3_triangular_numbers">Here are the first 10 triangular numbers</string>
+    <string name="number_of_triangular_numbers_to_show">10</string>
+
+    <string name="menupage_welcome_msg_1">This is a multi utility app, which provides various useful tools and games. The idea is to give users a nice learning experience which is immersive and engaging.</string>
+    <string name="menupage_welcome_msg_2">Drag the menu from the left to right, to see the options available and enjoy!</string>
+    <string name="menupage_welcome_msg_3"></string>
+
+
+
 </resources>
