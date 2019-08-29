@@ -11,7 +11,11 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".TriangularNumbers" android:label="@string/title_triangular_numbers"></activity>
+        <activity android:name=".TicTacToeActivity"></activity>
+        <activity android:name=".PictureViewer" />
+        <activity
+            android:name=".TriangularNumbers"
+            android:label="@string/title_triangular_numbers" />
         <activity
             android:name=".GuessANumber"
             android:label="@string/title_guess_number"
@@ -25,6 +29,14 @@
             android:noHistory="true" />
         <activity
             android:name=".InterActivityDemo"
+            android:noHistory="true" />
+        <activity
+            android:name=".JavaTest"
+            android:label="@string/title_java_test"
+            android:noHistory="true" />
+        <activity
+            android:name=".AnimationBart"
+            android:label="@string/title_animation_bart"
             android:noHistory="true" />
         <activity
             android:name=".MyNavActivity"

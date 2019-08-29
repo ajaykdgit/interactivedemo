@@ -1,6 +1,7 @@
 package com.example.interactivitydemo;
 
 import android.content.Intent;
+import android.os.Build;
 import android.os.Bundle;
 
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
@@ -27,6 +28,12 @@ import android.widget.Toast;
 public class MyNavActivity extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
 
+    private void showBuildInfo() {
+        int SDKVer = Build.VERSION.SDK_INT;
+        String msg = "" + SDKVer;
+        Toast.makeText(this, "SDK Version: " + SDKVer + ", " + "Release: " + Build.VERSION.RELEASE, Toast.LENGTH_LONG).show();
+    }
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -52,7 +59,8 @@ public class MyNavActivity extends AppCompatActivity
             }
         }, 7000);
 
-        Toast.makeText(this, "Hi", Toast.LENGTH_LONG).show();
+//        Toast.makeText(this, "Hi", Toast.LENGTH_LONG).show();
+        showBuildInfo();
 
         DrawerLayout drawer = findViewById(R.id.drawer_layout);
         NavigationView navigationView = findViewById(R.id.nav_view);
@@ -120,6 +128,12 @@ public class MyNavActivity extends AppCompatActivity
         } else if (id == R.id.nav_triangular_number) {
             Intent TriangularNumbersIntent = new Intent(this, TriangularNumbers.class);
             startActivity(TriangularNumbersIntent);
+        } else if (id == R.id.nav_animation_bart) {
+            Intent AnimationBartIntent = new Intent(this, AnimationBart.class);
+            startActivity(AnimationBartIntent);
+        } else if (id == R.id.nav_java_test) {
+            Intent JavaTestIntent = new Intent(this, JavaTest.class);
+            startActivity(JavaTestIntent);
         } else if (id == R.id.nav_share) {
 
         } else if (id == R.id.nav_send) {

@@ -1,28 +1,39 @@
 <resources>
+    <string name="title_activity_topics_covered_menu">Android Play Utility</string>
+    <string name="menupage_welcome_msg_1">This is a multi utility app, which provides various useful tools and games. The idea is to give users a nice learning experience which is immersive and engaging.</string>
+    <string name="menupage_welcome_msg_2">Drag the menu from the left to right, to see the options available and enjoy!</string>
+
+
+    <string name="menu_pmp_reckoner">PMP Reckoner</string>
     <string name="app_name">PMP Quick Refresher</string>
     <string name="welcome_msg1">PMP Quick Refresher helps in revising the PMP concepts, formulae, definitions, tips and tricks to memorize and revise quickly. This will not only help PMP Certification aspirants in quick revision but also to revise the concepts post certification.</string>
     <string name="welcome_msg2">PMP Exam expects a good and solid understanding of project management concepts. Most of the Project Managers have been found following local practices which does not meet the standart practices. Due to which when they appear in PMP Exam, they wonder how their answers does not match with the standards and they fail to qualify. To overcome this issue, I have made a comprehensive and easy to understand course, for passing the PMP Certification exam. A Complete PMP Certification Preparation course, which covers detailed concepts, topic analysis, video tutorials, detailed explanations of each topic, tips and tricks, how to plan for PMP, recent changes in PMBOK, how to study, strategy to succeed and become PMP Certified in first attempt etc. If you are looking for clearing your concepts, various estimation techniques, formulae, exercises then do join my PMP Certification Preparation course. This course is available on Udemy. Also there is an app which will help you buying the individual topics of your choice instead of buying the entire course.</string>
+
     <string name="topics_covered">Topics Covered</string>
-    <string name="title_activity_topics_covered_menu">PMP Quick Refresher</string>
+
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
-    <string name="nav_header_title">PMP Quick Refresher</string>
+
+    <string name="nav_header_title">Android Play Utility</string>
     <string name="nav_header_subtitle">ajaykd@gmail.com</string>
+
     <string name="nav_header_desc">PMP Quick Refresher 2</string>
     <string name="action_settings">Settings</string>
 
-    <string name="menu_pmp_reckoner">PMP Reckoner</string>
     <string name="menu_image_activity">Image Activity</string>
     <string name="menu_currency_converter">Currency Converter</string>
     <string name="menu_topics_covered">Topics Covered</string>
+
     <string name="menu_share">What Next</string>
     <string name="menu_send">Contact Us</string>
     <string name="menu_communicate">Communicate</string>
 
     <string name="title_currency_converter">Convert USD to INR</string>
+
     <string name="menu_guess_number">Guess The Number</string>
     <string name="title_guess_number">Higher or Lower</string>
     <string name="button_guess_number">Guess</string>
+
     <string name="menu_triangular_number">Triangular Numbers</string>
     <string name="title_triangular_numbers">Triangular Numbers</string>
     <string name="tb1_triangular_numbers">Do You Know?</string>
@@ -30,10 +41,12 @@
     <string name="tb3_triangular_numbers">Here are the first 10 triangular numbers</string>
     <string name="number_of_triangular_numbers_to_show">10</string>
 
-    <string name="menupage_welcome_msg_1">This is a multi utility app, which provides various useful tools and games. The idea is to give users a nice learning experience which is immersive and engaging.</string>
-    <string name="menupage_welcome_msg_2">Drag the menu from the left to right, to see the options available and enjoy!</string>
     <string name="menupage_welcome_msg_3"></string>
 
-
+    <string name="menu_java_test">Java Test - Loops</string>
+    <string name="title_java_test">Java Test - Loops</string>
+    <string name="res_enter_member_name">Enter member name</string>
+    <string name="title_animation_bart">Animation Bart</string>
+    <string name="menu_animation_bart">Animation Bart</string>
 
 </resources>

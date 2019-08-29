@@ -28,6 +28,14 @@
             android:id="@+id/nav_triangular_number"
             android:icon="@drawable/baseline_change_history_24"
             android:title="@string/menu_triangular_number" />
+        <item
+            android:id="@+id/nav_animation_bart"
+            android:icon="@drawable/baseline_change_history_24"
+            android:title="@string/menu_animation_bart" />
+        <item
+            android:id="@+id/nav_java_test"
+            android:icon="@drawable/baseline_change_history_24"
+            android:title="@string/menu_java_test" />
 
     </group>
 
