@@ -134,6 +134,9 @@ public class MyNavActivity extends AppCompatActivity
         } else if (id == R.id.nav_java_test) {
             Intent JavaTestIntent = new Intent(this, JavaTest.class);
             startActivity(JavaTestIntent);
+        } else if (id == R.id.nav_tictactoe) {
+            Intent TicTacToeIntent = new Intent(this, TicTacToeActivity.class);
+            startActivity(TicTacToeIntent);
         } else if (id == R.id.nav_share) {
 
         } else if (id == R.id.nav_send) {

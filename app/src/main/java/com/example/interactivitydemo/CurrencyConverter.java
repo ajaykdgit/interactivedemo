@@ -115,7 +115,7 @@ public class CurrencyConverter extends AppCompatActivity {
         protected void onPostExecute(Void v) {
             float finalINRvalue = usdValue * inrValue;
 
-            Log.d("--> CurrencyCoverter", usdValue + " USD = " + finalINRvalue + " INR");
+            Log.d("--> CurrencyConverter", usdValue + " USD = " + finalINRvalue + " INR");
             convertedCurrencyValueEditText.setText(String.format("%s USD = %s INR", Float.toString(usdValue), finalINRvalue));
 
             if (pd.isShowing()){

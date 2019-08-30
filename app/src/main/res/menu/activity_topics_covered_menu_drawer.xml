@@ -33,6 +33,10 @@
             android:icon="@drawable/baseline_change_history_24"
             android:title="@string/menu_animation_bart" />
         <item
+            android:id="@+id/nav_tictactoe"
+            android:icon="@drawable/baseline_change_history_24"
+            android:title="@string/menu_tictactoe" />
+        <item
             android:id="@+id/nav_java_test"
             android:icon="@drawable/baseline_change_history_24"
             android:title="@string/menu_java_test" />

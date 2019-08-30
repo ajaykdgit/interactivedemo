@@ -48,5 +48,8 @@
     <string name="res_enter_member_name">Enter member name</string>
     <string name="title_animation_bart">Animation Bart</string>
     <string name="menu_animation_bart">Animation Bart</string>
+    <string name="menu_tictactoe">Tic Tac Toe</string>
+    <string name="title_tictactoe">Tic Tac Toe</string>
+    <string name="button_name">Button 01</string>
 
 </resources>
